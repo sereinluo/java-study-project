@@ -1,5 +1,6 @@
 package serein.wanfeng.ulid;
 
+import com.github.f4b6a3.ulid.UlidCreator;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -12,7 +13,6 @@ public class ULIDTest {
 
     @Test
     public void test() {
-        String ulid = ULIDGenerator.generateULID();
-        System.out.println(ulid);
+        System.out.println(UlidCreator.getUlid());
     }
 }

@@ -13,13 +13,6 @@
     <module>api</module>
     <module>common</module>
     <module>designpattern</module>
-      <module>rpc</module>
-      <module>rpc/consumer</module>
-    <module>rpc/provider</module>
-      <module>rpc/commonservice</module>
-    <module>rpc/provider</module>
-      <module>rpc/wanfengrpc</module>
-      <module>redis-springboot</module>
   </modules>
 
   <properties>
@@ -88,6 +81,12 @@
       <groupId>cn.hutool</groupId>
       <artifactId>hutool-all</artifactId>
       <version>5.8.23</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.f4b6a3</groupId>
+      <artifactId>ulid-creator</artifactId>
+      <version>5.1.0</version>
     </dependency>
   </dependencies>
 

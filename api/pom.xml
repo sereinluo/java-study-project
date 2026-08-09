@@ -171,12 +171,6 @@
             <version>1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.icepdf.os</groupId>
-            <artifactId>icepdf-core</artifactId>
-            <version>6.2.2</version>
-        </dependency>
-
         <!--apache下，包含连接ftp服务器的工具-->
         <dependency>
             <groupId>commons-net</groupId>
